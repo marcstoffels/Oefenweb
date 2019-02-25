@@ -15,7 +15,7 @@ require_once "inc/config.php";
   </head>
   <body>
     <div class ="uk-section uk-container">
-      <div class ="uk-grid uk-child-width-1-3-@s uk-child-width-1-1" uk-grid>
+      <div class ="uk-grid uk-child-width-1-3-@s uk-child-width-1-1">
         <form class="uk-form-stacked js-webquiz">
           <div class="uk-margin">
               <label class="uk-form-label" for="form-stacked-text " id="progress"></label>
@@ -37,7 +37,7 @@ require_once "inc/config.php";
           <div class="uk-margin uk-alert" id="score" style='display: none;'></div>
           <div class="uk-margin uk-alert uk-alert-danger js-error" style='display: none;'></div>
           <div class="uk-margin">
-            <button class="uk-button uk-align-center" name="submit" type = "button" id ="submit">Volgende vraag</a>
+            <button class="uk-button uk-align-center" name="submit" type = "button" id ="submit">Volgende vraag</button>
           </div>
         </form>
       </div>

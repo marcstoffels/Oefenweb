@@ -5,7 +5,7 @@
 
 	// Require the config
 	require_once "../inc/config.php";
-
+    $con = DB::getConnection();
 	if($_SERVER['REQUEST_METHOD'] == 'GET') {
 		$return = [];
 
